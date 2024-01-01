@@ -1,6 +1,6 @@
 # WeatherApp
 
-![alt text](https://github.com/[dworak]/[WeatherApp]/blob/[master]/image1.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/dworak/WeatherApp/main/image1.png)
 
 ## Development server
 
