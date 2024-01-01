@@ -1,27 +1,98 @@
 # WeatherApp
 
+## Description
+This repository contains the Angular application for a weather forecast service. The application utilizes Angular framework along with various components and services to provide a seamless weather information experience.
+
 ![Screenshot](https://raw.githubusercontent.com/dworak/WeatherApp/main/image1.png)
 
-## Development server
+## Components
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 1. App Component
+   - Main component that serves as the entry point for the application.
 
-## Code scaffolding
+### 2. Header Component
+   - Displays the header section of the application.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 3. City Card Component
+   - Represents a card displaying weather information for a specific city.
 
-## Build
+### 4. Search Bar Component
+   - Allows users to search for weather information for a specific city.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 5. Weather Component
+   - Displays the current weather information for a selected city.
 
-## Running unit tests
+### 6. Loader Component
+   - Provides a loading indicator while fetching weather data.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 7. Forecast Component
+   - Displays the weather forecast for upcoming days.
 
-## Running end-to-end tests
+### 8. Clock Component
+   - Displays the current time.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 9. Date Component
+   - Displays the current date.
 
-## Further help
+### 10. NotFound Component
+   - Represents the page displayed when a route is not found.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 11. Error Component
+   - Represents the page displayed in case of an error.
+
+### 12. ForecastItem Component
+   - Represents an individual item in the weather forecast.
+
+## Services
+
+### 1. AppService
+   - Provides application-level services.
+
+### 2. LocalStorageService
+   - Handles operations related to local storage.
+
+### 3. WeatherService
+   - Manages weather-related data and interactions.
+
+### 4. ResolveLocationService
+   - Resolves location-related services.
+
+### 5. CityCardResolver
+   - Resolves data for the CityCardComponent.
+
+### 6. HelperService
+   - Provides miscellaneous helper functions.
+
+### 7. LoaderService
+   - Manages the loading indicator.
+
+### 8. ClockService
+   - Manages time-related functionalities.
+
+### 9. DateService
+   - Manages date-related functionalities.
+
+### 10. ForecastService
+   - Handles operations related to weather forecast.
+
+### 11. WeatherIconsService
+   - Manages weather icon-related services.
+
+## Third-party Libraries
+
+### 1. ngx-ui-switch
+   - Provides a customizable switch component.
+
+### 2. @angular/material/icon
+   - Angular Material Icon module for icon components.
+
+### 3. @angular/material/progress-spinner
+   - Angular Material Progress Spinner module for displaying loading spinners.
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install the necessary dependencies.
+3. Use `ng serve` to run the development server.
+
+Feel free to explore and modify the application to suit your needs!
